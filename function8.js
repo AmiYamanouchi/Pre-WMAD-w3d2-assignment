@@ -4,8 +4,9 @@ let sentence = "I am a sentence"
 
 
 
-const splitSentence= function () {
-
+const splitSentence= function (arr) {
+    let splitWords = arr.split(' ');
+    console.log(splitWords);
 };
 
 splitSentence(sentence);
