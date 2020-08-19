@@ -3,9 +3,9 @@
 let example = [1, 2, 3, 4, 'five', 6, 7];
 
 const logItems = function (arr) {
-arr.forEach(num => {
-    console.log(num);
-});
+    arr.forEach(num => {
+        console.log(num);
+    });
 }
 
 logItems(example);
